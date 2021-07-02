@@ -33,7 +33,7 @@ end
     R = C(1:train,:);
     T = C(train+1:train+test,:);
     
-    %% Vypocet min. vzdalenosti a identifikace pro vsechny testovaci nahravky (15mluvcich * 2 test. nahravky) 
+    %% Calculation of min. distance and identification for all test recordings
     % Memory allocation
     dist = zeros(1,train); % distance vector
     dist_min = zeros(1,num_speakers);    % vector of minimum distances between the recordings of individual speakers
